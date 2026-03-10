@@ -1,0 +1,27 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+============================================
+  Dim-I Grounding Reproduction Suite
+============================================
+1) Behavior probe: Pi0.5 + LingBot-VA
+2) Bottleneck: Pi0.5
+3) Bottleneck: LingBot-VA
+============================================
+============================================
+  Dim-I Instruction Following Probe
+  beat_block_hammer | demo_clean | 3 ep/type
+  Models: Pi0.5 (15K), LingBot-VA (posttrain)
+============================================
+
+===== Phase 1: Pi0.5 15K checkpoint =====
+============================================
+  Dim-I Instruction Following Probe
+  Model: Pi0.5 (ckpt 15000)
+  Task: beat_block_hammer
+  Config: demo_clean
+  Episodes per type: 3
+  GPU: 0
+============================================
+
+>>> Running instruction_type=seen (3 episodes) ...
+
+[32mRender Well[0m

@@ -1,0 +1,18 @@
+# Basic experiment configuration (keep unchanged)
+policy_name: LingBotVLA
+task_name: null
+task_config: null
+ckpt_setting: null
+seed: null
+instruction_type: unseen
+
+# Model paths
+model_path: /mnt/shared-storage-user/p1-shared/yujiale/models/lingbot-vla-4b-root/checkpoints/base/hf_ckpt
+qwen25_path: /mnt/shared-storage-user/p1-shared/yujiale/models/Qwen2.5-VL-3B-Instruct
+norm_stats_file: /mnt/shared-storage-user/p1-shared/yujiale/code/benchmarks/RoboTwin/policy/LingBotVLA/norm_stats/beat_block_hammer.json
+
+# Inference params
+use_length: 50
+chunk_ret: true
+use_bf16: true
+

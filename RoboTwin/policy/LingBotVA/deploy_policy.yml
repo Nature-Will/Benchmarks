@@ -1,0 +1,8 @@
+# LingBot-VA deploy config for RoboTwin evaluation
+task_name: null
+policy_name: LingBotVA
+task_config: demo_clean
+ckpt_setting: null
+seed: 0
+instruction_type: seen
+action_dim: 14

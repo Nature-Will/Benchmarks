@@ -1,0 +1,11 @@
+# Basic experiment configuration (keep unchanged)
+policy_name: null
+task_name: null
+task_config: null
+ckpt_setting: null
+seed: null
+instruction_type: unseen
+
+# DreamZero server connection
+server_host: "0.0.0.0"
+server_port: 5000
