@@ -30,6 +30,7 @@ envs/curobo/*
 /*.txt
 
 # Local experiment artifacts
+experiments/
 results/
 results_instruction_probe/
 policy/LingBotVLA/data/
